@@ -158,7 +158,7 @@ function prepareBBoxMapInput()
     var point = bboxmap.locationPoint(initialLocation),
         left = point.x.toFixed(0) + 'px',
         top = point.y.toFixed(0) + 'px',
-        $mark = $('<img id="mark" style="left: '+left+'; top: '+top+'; margin-left: -29px; margin-top: -29px; cursor: move; position: absolute; z-index: 1000;" src="images/cross_round_lg.png">');
+        $mark = $('<img id="mark" style="left: '+left+'; top: '+top+'; margin-left: -29px; margin-top: -29px; cursor: move; position: absolute; z-index: 1000;" src="../images/cross_round_lg.png">');
 
     $mark.bind('mousedown', function(mde) {
       var mousePosition = $mark.offset();
@@ -181,8 +181,8 @@ function prepareBBoxMapInput()
     });
 
     var $zoom = $('<p id="zoom" style="position:absolute; margin: 10px; padding: 0; right: 0; top: 0; z-index:2000;"></p>')
-                    .append('<a href="#" id="zoomin" style="padding: 0px; margin-bottom: 5px; text-decoration: none;"><img border="0" src="images/zoom_in_25px_recent.png"></a><br>')
-                    .append('<a href="#" id="zoomout" style="padding: 0px; text-decoration: none;"><img border="0" src="images/zoom_out_25px_short.png"></a>');
+                    .append('<a href="#" id="zoomin" style="padding: 0px; margin-bottom: 5px; text-decoration: none;"><img border="0" src="../images/zoom_in_25px_recent.png"></a><br>')
+                    .append('<a href="#" id="zoomout" style="padding: 0px; text-decoration: none;"><img border="0" src="../images/zoom_out_25px_short.png"></a>');
 
     $('#bboxmap').append($mark);
     $('#bboxmap').append($zoom);
