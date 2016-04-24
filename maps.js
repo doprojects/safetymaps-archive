@@ -3,7 +3,7 @@ $(document).ready(function()
     function add_mapmarker(map, location)
     {
         var img = new Image();
-        
+
         img.onload = function()
         {
             var pos = map.locationPoint(location);
@@ -20,7 +20,7 @@ $(document).ready(function()
             anc.appendChild(img);
             map.parent.appendChild(anc);
         }
-        
+
         var loc = location.href;
         img.src = loc.replace(/\/maps.php(\/.*)?$/, '/images/cross_round_sm.png');
     }
@@ -28,13 +28,13 @@ $(document).ready(function()
     function make_map(element, location)
     {
         var mm = com.modestmaps;
-        var cm = new mm.CloudMadeProvider('1a914755a77758e49e19a26e799268b7', '22677');
+        var cm = new mm.StamenProvider('toner-lite');
         var dim = {x: $(element).width(), y: $(element).height()};
         var map = new mm.Map(element, cm, dim, []);
-        
+
         map.setExtent(location.extent);
         add_roundy_corners(map);
-        
+
         add_mapmarker(map, location);
     }
 
@@ -48,11 +48,11 @@ $(document).ready(function()
         var north = parseFloat($(this).find('.geo .bbox-north').text());
         var href = $(this).find('a.link').attr('href');
         var name = $(this).find('.place-name').text();
-        
+
         var extent = [{lat: north, lon: west}, {lat: south, lon: east}];
         var location = {lat: lat, lon: lon, href: href, name: name, extent: extent};
         var element = $(this).find('.map-area')[0];
-        
+
         make_map(element, location);
     });
 });

@@ -22,13 +22,13 @@ function behaveAsRequired(index, input)
         if($(input).attr('value')) {
             $(input).removeClass('unacceptable');
             $(input).addClass('good-to-go');
-        
+
         } else {
             $(input).removeClass('good-to-go');
             $(input).addClass('unacceptable');
         }
     }
-    
+
     function eventuallyCheckValue()
     {
         $(input).removeClass('unacceptable');
@@ -60,7 +60,7 @@ function prepareEmergencyChoiceInput()
         $('#emergency-other').attr('name', 'place[emergency]');
         $('#emergency-other').focus();
     }
-    
+
    /**
     * Change to #emergency-chooser margin-top: 0
     */
@@ -72,15 +72,15 @@ function prepareEmergencyChoiceInput()
             $('#emergency-select').css({ top: 0, zIndex: 1000 });
             $('#emergency-select').removeClass('other');
             $('#emergency-other').hide();
-    
+
             $('#emergency-select').attr('name', 'place[emergency]');
             $('#emergency-other').attr('name', '');
         }
-        
+
         $('#emergency-select').css({ top: 0, zIndex: 1000 });
         $('#emergency-select').animate({ top: 38 }, { duration: 'fast', complete: onMoved });
     }
-    
+
     // deal with "Other (please specify)"
     $('#emergency-select').change(function()
       {
@@ -105,7 +105,7 @@ function prepareBBoxMapInput()
         initialLocation = (isNaN(lat0) || isNaN(lon0))
             ? new mm.Location(0, 0)
             : new mm.Location(lat0, lon0);
-    
+
     // pull an initial extent from the DOM.
     var lat1 = parseFloat($('input#bbox0').attr('value')),
         lon1 = parseFloat($('input#bbox1').attr('value')),
@@ -118,23 +118,23 @@ function prepareBBoxMapInput()
         initialExtentB = (isNaN(lat2) || isNaN(lon2))
             ? undefined
             : new mm.Location(lat2, lon2),
-        
+
         initialExtent = (initialExtentA && initialExtentB)
             ? [initialExtentA, initialExtentB]
             : undefined;
-    
-    var provider = new mm.CloudMadeProvider('1a914755a77758e49e19a26e799268b7','22677');
+
+    var provider = new mm.StamenProvider('toner-lite');
     // make a map!
     bboxmap = new mm.Map('bboxmap', provider, {x: 502, y: 320}, [ new AnyZoomHandler() ]);
-    
+
     if(initialExtent) {
         bboxmap.setExtent(initialExtent);
-    
+
     } else {
         bboxmap.setCenterZoom(initialLocation, 1);
     }
-    
-    
+
+
     add_roundy_corners(bboxmap);
 
     function onMapChange() {
@@ -149,12 +149,12 @@ function prepareBBoxMapInput()
             $("input#bbox0").attr('value', extent[0].lat.toFixed(6));
             $("input#bbox1").attr('value', extent[0].lon.toFixed(6));
             $("input#bbox2").attr('value', extent[1].lat.toFixed(6));
-            $("input#bbox3").attr('value', extent[1].lon.toFixed(6)); 
+            $("input#bbox3").attr('value', extent[1].lon.toFixed(6));
         }
     };
     bboxmap.addCallback('drawn', onMapChange);
     onMapChange();
-    
+
     var point = bboxmap.locationPoint(initialLocation),
         left = point.x.toFixed(0) + 'px',
         top = point.y.toFixed(0) + 'px',
@@ -193,7 +193,7 @@ function prepareBBoxMapInput()
     var $search = $('<p style="position:absolute; margin: 0px; padding: 0px; z-index:2000;"></p>')
                       .append('<form id="searchform"><input type="text" id="search" name="search"><button type="submit">Search</button></form>');
     $(document.body).append($search);
-    
+
     $(document.body).bind('search-needs-adjusting', function() {
         var mapOffset = $('#bboxmap').offset();
         mapOffset.left += 10;
@@ -229,7 +229,7 @@ function prepareBBoxMapInput()
         if (rsp && rsp.ResultSet && rsp.ResultSet.Results && rsp.ResultSet.Results.length) {
             var result = rsp.ResultSet.Results[0];
             if (result.boundingbox) {
-              bboxmap.setExtent([new mm.Location(result.boundingbox.north, result.boundingbox.west), 
+              bboxmap.setExtent([new mm.Location(result.boundingbox.north, result.boundingbox.west),
                               new mm.Location(result.boundingbox.south, result.boundingbox.east)]);
             }
             else {
@@ -255,33 +255,33 @@ function prepareRecipientsListInput()
         var newLI = $(html.join(''));
         $('#recipients').append(newLI);
         newLI.show(onAdded);
-        
+
         function onAdded()
         {
             newLI.find('input').first().focus();
             newLI.find('a.remove-recipient').live('click', removeRecipient);
             newLI.find('input').each(behaveAsRequired);
         }
-        
+
         renumberFormElements();
         return false;
     }
-    
+
     function removeRecipient()
     {
         var oldLI = $(this).parent('li');
-    
+
         function onRemoved()
         {
             oldLI.remove();
             renumberFormElements();
         }
-        
+
         oldLI.slideUp(onRemoved);
 
         return false;
     }
-    
+
     function renumberFormElements()
     {
         // renumber the form elements
@@ -296,7 +296,7 @@ function prepareRecipientsListInput()
     $('#add-recipient').live('click', addRecipient);
 }
 
-function measureNoteSize(text) 
+function measureNoteSize(text)
 {
     $('#dummynote').remove();
     $('<p id="dummynote">'+text.replace(/\n/g,'<br>')+'</p>').appendTo(document.body);
@@ -307,7 +307,7 @@ function measureNoteSize(text)
 
 function prepareNoteTextarea()
 {
-    // twitter style remaining character count 
+    // twitter style remaining character count
     // (allow more chars to be typed but don't allow form submission, below)
     var prevLength;
     function onNoteChange() {
