@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Safety Map by vicenç</title>
+        <link rel="stylesheet" type="text/css" href="/fonts/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/style.css" />
+<link rel="icon" type="image/png" href="/images/favicon.png">        <script type="text/javascript" src="/jquery.min.js"></script>
+                    <link rel="stylesheet" type="text/css" href="/map.css" />
+            <script type="text/javascript" src="/map.js"></script>
+                <script type="text/javascript" src="/modestmaps.js"></script>
+        <script type="text/javascript" src="/cloudmade.js"></script>
+        <script type="text/javascript" src="/round-em-up.js"></script>
+        <script type="text/javascript" src="/markerclip.js"></script>
+    </head>
+    <body>
+
+        <div id="header">
+    <a href="/"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
+    <div id="nav">
+        <ul>
+            <li><a class="" href="/">Home</a></li>
+            <li><a class="" href="/about.php">About</a></li>
+            <li><a class="" href="/make-a-safety-map.php">Make a Safety Map</a></li>
+                        <li><a class="" href="/resources.php">Resources</a></li>
+        </ul>
+    </div>
+</div>
+        <div id="main">
+                                        
+                <h2>
+                    Safety Map
+                                            by <var>vicenç</var>
+                                    </h2>
+                
+                
+                <p>
+                    In case of <var>Terratrèmol</var>,
+                    let’s meet at <var> “AL SUELO, CUBRIRSE Y SUJETARSE”</var>.
+                    I’ve marked the spot on this map:
+                </p>
+                
+                <div id="preview-map"></div>
+                
+                <script type="text/javascript">
+                <!--
+                    show_preview_map(document.getElementById('preview-map'),41.621898,2.68609,41.613061,2.692759,41.624064,2.669669,'');
+                //-->
+                </script>
+
+                <p class="map-date">
+                    This Safety Map was made on <var>29 Feb 2012</var>.
+                </p>
+                
+                                    <blockquote>Si usted está en interiores cuando comienza el terremoto:
+
+     “AL SUELO, CUBRIRSE Y SUJETARSE” Si no está cerca de una mesa o escritorio resistente, tírese al suelo pegado a una pared interior y cubra su cabeza y cuello con sus brazos.
+    Evite las ventanas, objetos colgantes, espejos, muebles altos, aparatos grandes y gabinetes llenos con objetos pesados.
+    No intente correr hacia afuera de la estructura durante un temblor fuerte.
+    Si se encuentra en el centro de la ciudad, es más seguro permanecer dentro de un edificio luego de un terremoto, a menos que haya pérdidas de gas o incendio. No existen áreas abiertas en el centro de San Francisco lo suficientemente alejadas de vidrios y otros elementos como para ser consideradas sitios seguros. Los vidrios de los edificios altos no siempre caen en forma vertical; las corrientes de aire pueden hacerlos volar distancias considerables.
+    Si está en la cama, quédese ahí y cubra su cabeza con una almohada.
+    No use elevadores. Esté consciente de que las alarmas de incendios y/o aspersores pueden activarse.
+    Si usted usa una silla de ruedas, asegure las ruedas y cubra su cabeza.
+
+Si usted está en el exterior cuando comienza el terremoto:
+
+    Muévase a un área despejada si puede caminar de manera segura. Evite los cables de energía, edificios y arboles.
+    Si está conduciendo, salga del camino y deténgase. Evite pararse bajo peligros elevados.
+    Si está en la playa, usted podría estar en la trayectoria de un tsunami.
+
+Una vez que el terremoto se detiene:
+
+    Revise a los miembros de la familia y/o compañeros de trabajo; brinde primeros auxilios en caso de haber lesiones. No mueva a personas gravemente lesionadas a menos que estén en peligro inmediato.
+    Asegúrese de que no existan condiciones peligrosas a su alrededor, como incendios, cables de energía caídos y estructuras dañadas.
+    Si usted cuenta con extintores de incendios y está capacitado para usarlos, apague de inmediato los pequeños incendios.
+    Apague el gas solamente si percibe olor a gas.
+    Verifique sus teléfonos para asegurarse de que no se hayan descolgado por el temblor y estén bloqueando una línea.
+    Inspeccione los daños de su hogar.
+
+Si usted está atrapado en escombros:
+
+    Muévase lo menos posible para que no levante polvo. Cubra su nariz y boca con un pañuelo o tela.
+    Dé golpecitos a una tubería o pared para que los rescatadores puedan escuchar donde está. Utilice un silbato si tiene uno. Grite sólo como último recurso.
+
+
+   
+</blockquote>
+                                
+                                
+                <div class="download-area">
+                                                                        <p>
+                                PDF downloads are emailed to the sender and recipients of each Safety Map.
+                                <a href="/make-a-safety-map.php">Make your own!</a>
+                            </p>
+                            
+                            <ul class="formats">
+                                                                    <li class="format">
+                                        <img src="/images/hands-gray-4up.png">
+                                    </li>
+                                                                    <li class="format">
+                                        <img src="/images/hands-gray-2up-fridge.png">
+                                    </li>
+                                                                    <li class="format">
+                                        <img src="/images/hands-gray-poster.png">
+                                    </li>
+                                                            </ul>
+                                                            </div>
+
+                    </div>
+
+        <div id="footer">
+    <p><a href="http://doprojects.org"><img src="/images/mail-do-logo.png" alt="Do Projects" width="42" height="21"></a> &copy;2011 <a href="http://doprojects.org">Do projects</a>.</p>
+    <p>Safety Maps is offered to you under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons Attribution-Noncommercial-Share Alike license</a>.</p>
+    <p>Map images are &copy;CloudMade and <a href="http://openstreetmap.org">OpenStreetMap.org</a> contributors, used under the <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Attribution-Share Alike license</a>.</p>
+</div>
+
+
+<script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('0b0dd22f79d787f91f1a1bcaff135509'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
+<script type='text/javascript'> mpmetrics.track("view map page", {}); </script> 
+
+    </body>
+</html>

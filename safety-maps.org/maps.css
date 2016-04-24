@@ -1,0 +1,80 @@
+ul#maps,
+.pagination
+{
+    margin: 0 0 1em 0;
+}
+
+var, blockquote
+{
+	color: #090;
+	font-style: normal;
+}
+
+ul#maps
+{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#maps li.map-info
+{
+    float: left;
+    display: block;
+    width: 320px;
+    height: 290px;
+    margin: 0 20px 20px 0;
+    list-style-type: none;
+}
+
+ul#maps li.admin.map-info
+{
+    height: 330px;
+}
+
+ul#maps li.admin.map-info form
+{
+    padding: 4px 8px;
+    background-color: #fcc;
+    border: 1px solid #f99;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+ul#maps li.map-info .map-area
+{
+    width: 320px;
+    height: 200px;
+    background-color: #ccc;
+    border: 1px solid #bbb;
+    position: relative;
+}
+
+.map-area a.map-link
+{
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.map-area a.map-link,
+.map-area a.map-link img
+{
+    border: none;
+}
+
+ul#maps li.map-info h3,
+ul#maps li.map-info .map-area,
+ul#maps li.map-info form,
+ul#maps li.map-info p
+{
+    margin: 0 0 10px 0;
+}
+
+.pagination
+{
+    clear: left;
+}

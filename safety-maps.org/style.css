@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #888;
+    color: #000;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    min-width: 960px;
+}
+
+a img {
+    border: 0;
+}
+
+/* header! */
+
+#header {
+    position: relative;
+    background: #00CC00;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+#header #nav {
+    background: #333333;
+    /* I'm ashamed of myself, but this takes the edge off the html crispiness a bit */
+    border-top: 1px solid #00AF23;
+    border-bottom: 1px solid #888888;
+    clear: both;
+}
+
+#header #nav ul {
+    /* ----- */
+    font-weight: normal;
+    font-style: normal;
+    line-height:normal;
+    font-family: 'MgOpenModataRegular', sans-serif;
+    font-size-adjust: 0.56;
+    /* ----- */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header #nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#header #nav li a {
+    display: inline-block;
+    padding: 6px 20px 10px 20px;
+    color: #CCCCCC;
+    text-decoration: none;
+    border-left: 1px dashed #666666;
+}
+#header #nav li:first-child a {
+    border-left: 0;
+}            
+#header #nav li a:hover, header nav li a:active {
+    text-decoration: underline;
+    color: #00CC00;
+}
+#header #nav li a.current {
+    color: #00CC00; 
+}
+
+/* section! */
+
+#main {
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #666;    
+    padding: 40px;
+}
+
+/* footer! */
+
+#footer {
+    background: #888;
+    margin: 0;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    border-top: 1px solid #EEEEEE;
+}
+
+#footer p {
+    margin: 0 0;
+    padding: 0;
+}
+#footer a {
+    color: #fff;
+}
+
+/* microformats! */
+
+.geo {
+    display: none;
+}
+
+/* markers! */
+
+.marker {
+    background-image: url(images/cross_sm.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.marker.hover {
+    background-image: url(images/cross_big.png);
+}
+
+canvas
+{
+    pointer-events: none;
+}

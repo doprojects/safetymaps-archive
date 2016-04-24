@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Safety Map</title>
+        <link rel="stylesheet" type="text/css" href="/fonts/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/style.css" />
+<link rel="icon" type="image/png" href="/images/favicon.png">        <script type="text/javascript" src="/jquery.min.js"></script>
+                    <link rel="stylesheet" type="text/css" href="/maps.css" />
+            <script type="text/javascript" src="/maps.js"></script>
+                <script type="text/javascript" src="/modestmaps.js"></script>
+        <script type="text/javascript" src="/cloudmade.js"></script>
+        <script type="text/javascript" src="/round-em-up.js"></script>
+        <script type="text/javascript" src="/markerclip.js"></script>
+    </head>
+    <body>
+
+        <div id="header">
+    <a href="/"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
+    <div id="nav">
+        <ul>
+            <li><a class="" href="/">Home</a></li>
+            <li><a class="" href="/about.php">About</a></li>
+            <li><a class="" href="/make-a-safety-map.php">Make a Safety Map</a></li>
+                        <li><a class="" href="/resources.php">Resources</a></li>
+        </ul>
+    </div>
+</div>
+        <div id="main">
+                                        
+                                
+                                    <p class="pagination">
+                                                                                    <span class="newer">← <a href="/maps.php?count=12&amp;offset=0">Newer Maps</a></span>
+                                                                                        /
+                                                                                        <span class="older"><a href="/maps.php?count=12&amp;offset=24">Older Maps</a> →</span>
+                                                                        </p>
+                
+            
+                <ul id="maps">
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/nl47q">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/g9zr7">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">-1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/r8d2h">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">-1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/d4fv4">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">-1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/tq374">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>Sarah </var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">-82.643566</span>
+                                <span class="longitude">89.489939</span>
+                                <span class="bbox-west">404.489939</span>
+                                <span class="bbox-south">-89.248457</span>
+                                <span class="bbox-east">-301.447561</span>
+                                <span class="bbox-north">83.225174</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>an earthquake</var>,
+                                let’s meet at <var class="place-name">6703 SE Woodstock</var>.
+                                <a class="link" href="/maps.php/xdvcr">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/trkgs">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>-1&#039;</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/t3wn2">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/vl7zw">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/7kkpq">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">-1</span>
+                                <span class="bbox-south">1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/xsnqb">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                            <li class="map-info ">
+                            <h3>
+                                Safety Map
+                                                                    by <var>1</var>
+                                                            </h3>
+                            
+                            
+                            <span class="geo">
+                                <span class="latitude">1</span>
+                                <span class="longitude">1</span>
+                                <span class="bbox-west">1</span>
+                                <span class="bbox-south">-1</span>
+                                <span class="bbox-east">1</span>
+                                <span class="bbox-north">1</span>
+                            </span>
+                            
+                            <div class="map-area"></div>
+                            
+                            <p>
+                                In case of <var>1</var>,
+                                let’s meet at <var class="place-name">1</var>.
+                                <a class="link" href="/maps.php/fz7nm">I’ve marked the spot on this map</a>.
+                            </p>
+
+                                                    </li>
+                                    </ul>
+                
+                                    <p class="pagination">
+                                                                                    <span class="newer">← <a href="/maps.php?count=12&amp;offset=0">Newer Maps</a></span>
+                                                                                        /
+                                                                                        <span class="older"><a href="/maps.php?count=12&amp;offset=24">Older Maps</a> →</span>
+                                                                        </p>
+                
+            
+                    </div>
+
+        <div id="footer">
+    <p><a href="http://doprojects.org"><img src="/images/mail-do-logo.png" alt="Do Projects" width="42" height="21"></a> &copy;2011 <a href="http://doprojects.org">Do projects</a>.</p>
+    <p>Safety Maps is offered to you under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons Attribution-Noncommercial-Share Alike license</a>.</p>
+    <p>Map images are &copy;CloudMade and <a href="http://openstreetmap.org">OpenStreetMap.org</a> contributors, used under the <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Attribution-Share Alike license</a>.</p>
+</div>
+
+
+<script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('0b0dd22f79d787f91f1a1bcaff135509'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
+<script type='text/javascript'> mpmetrics.track("view maps page", {}); </script> 
+
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Safety Map by 1</title>
+        <link rel="stylesheet" type="text/css" href="/fonts/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/style.css" />
+<link rel="icon" type="image/png" href="/images/favicon.png">        <script type="text/javascript" src="/jquery.min.js"></script>
+                    <link rel="stylesheet" type="text/css" href="/map.css" />
+            <script type="text/javascript" src="/map.js"></script>
+                <script type="text/javascript" src="/modestmaps.js"></script>
+        <script type="text/javascript" src="/cloudmade.js"></script>
+        <script type="text/javascript" src="/round-em-up.js"></script>
+        <script type="text/javascript" src="/markerclip.js"></script>
+    </head>
+    <body>
+
+        <div id="header">
+    <a href="/"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
+    <div id="nav">
+        <ul>
+            <li><a class="" href="/">Home</a></li>
+            <li><a class="" href="/about.php">About</a></li>
+            <li><a class="" href="/make-a-safety-map.php">Make a Safety Map</a></li>
+                        <li><a class="" href="/resources.php">Resources</a></li>
+        </ul>
+    </div>
+</div>
+        <div id="main">
+                                        
+                <h2>
+                    Safety Map
+                                            by <var>1</var>
+                                    </h2>
+                
+                
+                <p>
+                    In case of <var>1</var>,
+                    let’s meet at <var>1</var>.
+                    I’ve marked the spot on this map:
+                </p>
+                
+                <div id="preview-map"></div>
+                
+                <script type="text/javascript">
+                <!--
+                    show_preview_map(document.getElementById('preview-map'),1,1,1,1,-1,1,'');
+                //-->
+                </script>
+
+                <p class="map-date">
+                    This Safety Map was made on <var>8 Jul 2015</var>.
+                </p>
+                
+                                    <blockquote>1</blockquote>
+                                
+                                
+                <div class="download-area">
+                                                                        <p>
+                                PDF downloads are emailed to the sender and recipients of each Safety Map.
+                                <a href="/make-a-safety-map.php">Make your own!</a>
+                            </p>
+                            
+                            <ul class="formats">
+                                                                    <li class="format">
+                                        <img src="/images/hands-gray-4up.png">
+                                    </li>
+                                                                    <li class="format">
+                                        <img src="/images/hands-gray-2up-fridge.png">
+                                    </li>
+                                                                    <li class="format">
+                                        <img src="/images/hands-gray-poster.png">
+                                    </li>
+                                                            </ul>
+                                                            </div>
+
+                    </div>
+
+        <div id="footer">
+    <p><a href="http://doprojects.org"><img src="/images/mail-do-logo.png" alt="Do Projects" width="42" height="21"></a> &copy;2011 <a href="http://doprojects.org">Do projects</a>.</p>
+    <p>Safety Maps is offered to you under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons Attribution-Noncommercial-Share Alike license</a>.</p>
+    <p>Map images are &copy;CloudMade and <a href="http://openstreetmap.org">OpenStreetMap.org</a> contributors, used under the <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Attribution-Share Alike license</a>.</p>
+</div>
+
+
+<script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('0b0dd22f79d787f91f1a1bcaff135509'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
+<script type='text/javascript'> mpmetrics.track("view map page", {}); </script> 
+
+    </body>
+</html>

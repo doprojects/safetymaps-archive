@@ -1,0 +1,260 @@
+body {
+  position: relative;
+}
+
+#main p {
+  width: 580px;
+}
+#main table p {
+  width: auto;
+}
+
+#main table {
+    border-collapse: collapse;
+}
+td.inputs p, td.inputs input {
+    font-size: 18px;
+}
+td.inputs select {
+    border: 1px solid #00CC00;
+    font-size: 18px;
+}
+
+#main tr.first td.inputs {
+    border-left: 3px solid #ccc;
+    border-right: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+    padding-top: 40px;
+}
+#main tr.last td.inputs {
+    border-left: 3px solid #ccc;
+    border-right: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 40px;
+}
+
+#main td.inputs {
+    vertical-align: top;
+    width: 500px;
+    padding: 0px 40px 0px 40px;
+    border-left: 3px solid #ccc;
+    border-right: 3px solid #ccc;
+    background: #fff;
+}
+
+#main td.help {
+    vertical-align: top;
+    width: 200px;
+    padding: 0px 40px 0px 40px;
+    background: #fff;
+}
+
+#main ol li
+{
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#main a {
+    color: #000000;
+}
+
+.thoughtful {
+    color: #009900;
+    border: 1px dotted #00CC00;
+    padding: 5px;
+}
+
+.unacceptable
+{
+	background-color: #FCC;
+	background-image: url(images/input-unacceptable.png);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#main p.unacceptable
+{
+	width: 558px;
+	padding: 4px 4px 4px 25px;
+}
+
+input.good-to-go
+{
+	background-image: url(images/input-good-to-go.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+input.unacceptable
+{
+	background-position: right center;
+	border-bottom-color: #c00;
+    
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+a#add-recipient,
+a.remove-recipient
+{
+    background: #0c0;
+    color: #fff !important;
+    
+    font-weight: bold;
+    padding: 5px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 75%;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+a.remove-recipient { background: #999; }
+
+#main p,
+#main h1,
+#main h2,
+#main h3,
+#main h4 {
+    position: relative;
+    clear: both;
+}
+#main h3 {
+    margin-top: 30px;
+}
+
+#main input[type=text],
+#main input[type=email]
+{
+    border: 0px;
+    border-bottom: 1px solid #00CC00;
+    font-size: 100%;
+}
+
+#main input[type=radio]
+{
+    margin: 0 .5em;
+}
+
+#main textarea {
+    border: 1px solid #00CC00;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 492px;
+    font-size: 12pt;
+    padding: 4px;
+}
+
+button {
+    background: #444444;
+    color: #FFFFFF;
+    border: 0;
+    padding: 5px;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+}
+button[type=submit] {
+    background: #00CC00;
+}
+
+#searchform button {
+  margin-left: 4px;
+  padding: 2px 5px;
+}
+
+#bboxmap {
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 320px;
+    border: 1px solid #999;
+    background: #DDDDDD;
+}
+
+p#done {
+    margin-top: 30px;
+    text-align: center;
+}
+p#done button {
+    padding: 6px 10px;
+    font-size: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#emergency-chooser
+{
+	position: relative;
+	display: inline-block;
+	vertical-align: baseline;
+	width: 300px;
+	line-height: 1.0;
+}
+
+#emergency-select,
+#emergency-other
+{
+	position: relative;
+	display: inline-block;
+	vertical-align: baseline;
+	width: 295px;
+}
+
+#emergency-select
+{
+	margin: 6px 0 !important;
+	padding: 0 !important;
+}
+
+#emergency-select.other
+{
+    color: #999;
+    border-color: #ccc;
+}
+
+#emergency-other
+{
+	margin: 8px 0 !important;
+	padding: 0 !important;
+}
+
+#charcount { color: #080; }
+#charcount.invalid { color: #800; }
+
+/* for measuring the note, see validNoteSize() in make-a-safety-map.js */
+#dummynote {
+    position: absolute;
+    left: -400px !important;
+    top: 0px !important;
+    display: block !important;
+    visibility: hidden !important;
+    font-family: Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    padding: 10px 16px !important;
+    margin: 0px !important;
+    border: 2px solid #ccc !important;
+    width: 336px !important; 
+    line-height: 18px !important;
+    word-spacing: normal !important;
+    text-indent: 0 !important;
+    outline: 0 !important;
+    letter-spacing: 0 !important;
+    text-rendering: optimizeLegibility !important;
+}
+
