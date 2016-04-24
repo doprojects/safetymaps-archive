@@ -6,17 +6,17 @@
         <link rel="stylesheet" type="text/css" href="./fonts/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="./style.css" />
 <link rel="icon" type="image/png" href="./images/favicon.png">        <link rel="stylesheet" type="text/css" href="./make-a-safety-map.css" />
-        <script type="text/javascript" src="/jquery.min.js"></script>
-        <script type="text/javascript" src="/modestmaps.js"></script>
-        <script type="text/javascript" src="/cloudmade.js"></script>
-        <script type="text/javascript" src="/round-em-up.js"></script>
-        <script type="text/javascript" src="/anyzoom.js"></script>
-        <script type="text/javascript" src="/make-a-safety-map.js"></script>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./modestmaps.js"></script>
+        <script type="text/javascript" src="./cloudmade.js"></script>
+        <script type="text/javascript" src="./round-em-up.js"></script>
+        <script type="text/javascript" src="./anyzoom.js"></script>
+        <script type="text/javascript" src="./make-a-safety-map.js"></script>
     </head>
     <body>
 
         <div id="header">
-    <a href="./"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
+    <a href="./"><img src="./images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
     <div id="nav">
         <ul>
             <li><a class="" href="./">Home</a></li>
@@ -139,7 +139,7 @@
         </div>
 
         <div id="footer">
-    <p><a href="http://doprojects.org"><img src="/images/mail-do-logo.png" alt="Do Projects" width="42" height="21"></a> &copy;2011 <a href="http://doprojects.org">Do projects</a>.</p>
+    <p><a href="http://doprojects.org"><img src="./images/mail-do-logo.png" alt="Do Projects" width="42" height="21"></a> &copy;2011 <a href="http://doprojects.org">Do projects</a>.</p>
     <p>Safety Maps is offered to you under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons Attribution-Noncommercial-Share Alike license</a>.</p>
     <p>Map images are &copy;CloudMade and <a href="http://openstreetmap.org">OpenStreetMap.org</a> contributors, used under the <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Attribution-Share Alike license</a>.</p>
 </div>
