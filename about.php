@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <title>Safety Maps: About</title>
-        <link rel="stylesheet" type="text/css" href="/fonts/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="/style.css" />
-<link rel="icon" type="image/png" href="/images/favicon.png">        <style type="text/css" title="text/css">
+        <link rel="stylesheet" type="text/css" href="./fonts/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<link rel="icon" type="image/png" href="./images/favicon.png">        <style type="text/css" title="text/css">
         <!--
             #main p { width: 40em; }
         -->
@@ -14,34 +14,34 @@
     <body>
 
         <div id="header">
-    <a href="/"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
+    <a href="./"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
     <div id="nav">
         <ul>
-            <li><a class="" href="/">Home</a></li>
-            <li><a class="current" href="/about.php">About</a></li>
-            <li><a class="" href="/make-a-safety-map.php">Make a Safety Map</a></li>
-                        <li><a class="" href="/resources.php">Resources</a></li>
+            <li><a class="" href="./">Home</a></li>
+            <li><a class="current" href="./about.php">About</a></li>
+            <li><a class="" href="./make-a-safety-map.php">Make a Safety Map</a></li>
+                        <li><a class="" href="./resources.php">Resources</a></li>
         </ul>
     </div>
 </div>
         <div id="main">
 
             <h2>About Safety Maps.</h2>
-            
+
             <p>
             Safety Maps is an online application you can use to make and share
             maps of safe places to meet in the event of a disaster or other
             emergency. You can share these maps with friends, or print them out
             in a variety of convenient sizes.
             </p>
-            
+
             <p>
             All Safety Maps provide a space for you to include a personal
             message to the map’s recipients.
             </p>
-            
+
             <h3>What’s the point?</h3>
-            
+
             <p>
             There can be very little worse than being separated from those you
             care about most at a time of disaster. Energy you may literally
@@ -50,7 +50,7 @@
             conventional channels may be out of the question at such a moment:
             phone, text, and email networks may all be down.
             </p>
-            
+
             <p>
             Understanding this ahead of time, wouldn’t it be a step in the
             right direction if you were able to agree on a meeting place now —
@@ -59,22 +59,22 @@
             you could print out a map of this place, to post in a prominent
             location or to keep with you at all times?
             </p>
-            
+
             <p>
             Finally, wouldn’t it be wonderful if, in addition to its other
             provisions, that map had space for a personal note, something that
             let you feel the presence of someone who cares about you at what
             might be a very difficult moment?
             </p>
-            
+
             <p>
             This is the challenge we set before ourselves in designing Safety
             Maps. We would love to hear your thoughts as to the kinds of things
             you use it for, and whether you think we’ve succeeded.
             </p>
-            
+
             <h3>What kinds of emergencies can I use Safety Maps for?</h3>
-            
+
             <p>
             San Franciscans and Tokyoites probably think primarily of
             earthquakes, New Yorkers have more experience with blackouts, and
@@ -82,16 +82,16 @@
             designed Safety Maps to be agnostic as to the kind of situation you
             use it for — it doesn’t even necessarily have to be a disaster.
             </p>
-            
+
             <p>
             You can also print and share different maps for differing disaster
             scenarios: one meeting place for a fire, another for a flood, and
             so on. We’ve left space for you to give each unique map an
             appropriate and prominent title.
             </p>
-            
+
             <h3>What is a “safe place”?</h3>
-            
+
             <p>
             Wherever you think you, your friends and loved ones will be able to
             gather, be protected from further danger, and be easily visible to
@@ -99,28 +99,28 @@
             you, although you can also see places other users nearby have
             chosen for these same qualities.
             </p>
-            
+
             <p>
             We also strongly recommend checking with your local disaster
             preparedness office to confirm that the place you’ve chosen makes
             sense.
             </p>
-            
+
             <h3>About Do projects.</h3>
-            
+
             <p>
             Do projects is an undisciplinary design collective based in New
             York City. For the purposes of this project, Do consisted of <a href="http://nurri.com">Nurri
             Kim</a>, <a href="http://www.tom-carden.co.uk">Tom Carden</a> and <a href="http://mike.teczno.com">Michal Migurski</a> with <a href="http://speedbird.wordpress.com">Adam Greenfield</a>.
             </p>
-            
+
             <p>
             More information about Do and our other activities is available on
             our site, <a href="http://doprojects.org">doprojects.org</a>.
             </p>
-            
+
             <h2>Disclaimer</h2>
-            
+
             <p>
             Safety Maps, safety-maps.org and Do projects do not intend you to
             use this site in isolation, do not make any warranty of the fitness
@@ -131,7 +131,7 @@
             made available therein constitutes your acknowledgement of and
             consent to these provisions.
             </p>
-            
+
         </div>
 
         <div id="footer">
@@ -142,7 +142,7 @@
 
 
 <script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('0b0dd22f79d787f91f1a1bcaff135509'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
-<script type='text/javascript'> mpmetrics.track("view about page", {}); </script> 
+<script type='text/javascript'> mpmetrics.track("view about page", {}); </script>
 
     </body>
 </html>

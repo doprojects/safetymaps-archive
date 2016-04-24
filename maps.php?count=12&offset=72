@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <title>Safety Map</title>
-        <link rel="stylesheet" type="text/css" href="/fonts/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="/style.css" />
-<link rel="icon" type="image/png" href="/images/favicon.png">        <script type="text/javascript" src="/jquery.min.js"></script>
-                    <link rel="stylesheet" type="text/css" href="/maps.css" />
+        <link rel="stylesheet" type="text/css" href="./fonts/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<link rel="icon" type="image/png" href="./images/favicon.png">        <script type="text/javascript" src="/jquery.min.js"></script>
+                    <link rel="stylesheet" type="text/css" href="./maps.css" />
             <script type="text/javascript" src="/maps.js"></script>
                 <script type="text/javascript" src="/modestmaps.js"></script>
         <script type="text/javascript" src="/cloudmade.js"></script>
@@ -16,34 +16,34 @@
     <body>
 
         <div id="header">
-    <a href="/"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
+    <a href="./"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
     <div id="nav">
         <ul>
-            <li><a class="" href="/">Home</a></li>
-            <li><a class="" href="/about.php">About</a></li>
-            <li><a class="" href="/make-a-safety-map.php">Make a Safety Map</a></li>
-                        <li><a class="" href="/resources.php">Resources</a></li>
+            <li><a class="" href="./">Home</a></li>
+            <li><a class="" href="./about.php">About</a></li>
+            <li><a class="" href="./make-a-safety-map.php">Make a Safety Map</a></li>
+                        <li><a class="" href="./resources.php">Resources</a></li>
         </ul>
     </div>
 </div>
         <div id="main">
-                                        
-                                
+
+
                                     <p class="pagination">
-                                                                                    <span class="newer">← <a href="/maps.php?count=12&amp;offset=60">Newer Maps</a></span>
+                                                                                    <span class="newer">← <a href="./maps.php?count=12&amp;offset=60">Newer Maps</a></span>
                                                                                         /
-                                                                                        <span class="older"><a href="/maps.php?count=12&amp;offset=84">Older Maps</a> →</span>
+                                                                                        <span class="older"><a href="./maps.php?count=12&amp;offset=84">Older Maps</a> →</span>
                                                                         </p>
-                
-            
+
+
                 <ul id="maps">
                                             <li class="map-info ">
                             <h3>
                                 Safety Map
                                                                     by <var>Evan</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">42.256489</span>
                                 <span class="longitude">-84.406538</span>
@@ -52,13 +52,13 @@
                                 <span class="bbox-east">-84.426708</span>
                                 <span class="bbox-north">42.264366</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an emergency</var>,
                                 let’s meet at <var class="place-name">Art 634</var>.
-                                <a class="link" href="/maps.php/c58nq">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/c58nq">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -67,8 +67,8 @@
                                 Safety Map
                                                                     by <var>Bushcraft Romania</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">44.4839</span>
                                 <span class="longitude">26.076029</span>
@@ -77,13 +77,13 @@
                                 <span class="bbox-east">26.067428</span>
                                 <span class="bbox-north">44.487443</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an emergency</var>,
                                 let’s meet at <var class="place-name">Fantana Miorita</var>.
-                                <a class="link" href="/maps.php/9ctk3">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/9ctk3">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -92,8 +92,8 @@
                                 Safety Map
                                                                     by <var>Zax</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">49.454314</span>
                                 <span class="longitude">-2.605473</span>
@@ -102,13 +102,13 @@
                                 <span class="bbox-east">-3.028447</span>
                                 <span class="bbox-north">49.774638</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>Virulent Disease Outbreak</var>,
                                 let’s meet at <var class="place-name">Guernsey</var>.
-                                <a class="link" href="/maps.php/hmllz">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/hmllz">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -117,8 +117,8 @@
                                 Safety Map
                                                                     by <var>JRB</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">37.746897</span>
                                 <span class="longitude">-122.412632</span>
@@ -127,13 +127,13 @@
                                 <span class="bbox-east">-122.414237</span>
                                 <span class="bbox-north">37.748602</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an earthquake</var>,
                                 let’s meet at <var class="place-name">Precita Park</var>.
-                                <a class="link" href="/maps.php/535vv">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/535vv">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -142,8 +142,8 @@
                                 Safety Map
                                                                     by <var>Jeff</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">48.778837</span>
                                 <span class="longitude">-123.706382</span>
@@ -152,13 +152,13 @@
                                 <span class="bbox-east">-123.716433</span>
                                 <span class="bbox-north">48.783058</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an emergency</var>,
                                 let’s meet at <var class="place-name">City Hall</var>.
-                                <a class="link" href="/maps.php/3mt7w">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/3mt7w">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -167,8 +167,8 @@
                                 Safety Map
                                                                     by <var>Stand</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">40.037638</span>
                                 <span class="longitude">-105.26555</span>
@@ -177,13 +177,13 @@
                                 <span class="bbox-east">-105.437899</span>
                                 <span class="bbox-north">40.1217</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an emergency</var>,
                                 let’s meet at <var class="place-name"> Boulder Air Test Center</var>.
-                                <a class="link" href="/maps.php/lgst2">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/lgst2">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -192,8 +192,8 @@
                                 Safety Map
                                                                     by <var>Jenibug</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">30.586397</span>
                                 <span class="longitude">-96.283439</span>
@@ -202,13 +202,13 @@
                                 <span class="bbox-east">-96.286762</span>
                                 <span class="bbox-north">30.588396</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an emergency</var>,
                                 let’s meet at <var class="place-name">Rock Prairie and frontage road -- behind Honeybaked Ham building</var>.
-                                <a class="link" href="/maps.php/zfn4k">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/zfn4k">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -217,8 +217,8 @@
                                 Safety Map
                                                                     by <var>seb</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">-33.720798</span>
                                 <span class="longitude">19.158503</span>
@@ -227,13 +227,13 @@
                                 <span class="bbox-east">18.351245</span>
                                 <span class="bbox-north">-33.570974</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an emergency</var>,
                                 let’s meet at <var class="place-name">the North Bore of the Huguenot Tunnel</var>.
-                                <a class="link" href="/maps.php/8kskr">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/8kskr">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -242,8 +242,8 @@
                                 Safety Map
                                                                     by <var>viktor</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">47.38431</span>
                                 <span class="longitude">19.064306</span>
@@ -252,13 +252,13 @@
                                 <span class="bbox-east">19.05892</span>
                                 <span class="bbox-north">47.386634</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an earthquake</var>,
                                 let’s meet at <var class="place-name">gaga</var>.
-                                <a class="link" href="/maps.php/79h4w">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/79h4w">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -267,8 +267,8 @@
                                 Safety Map
                                                                     by <var>Tarjei Vågstøl</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">59.910934</span>
                                 <span class="longitude">10.762097</span>
@@ -277,13 +277,13 @@
                                 <span class="bbox-east">10.739094</span>
                                 <span class="bbox-north">59.916699</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>Høgre kjem i regjering</var>,
                                 let’s meet at <var class="place-name">mållagskontoret</var>.
-                                <a class="link" href="/maps.php/28qmq">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/28qmq">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -292,8 +292,8 @@
                                 Safety Map
                                                                     by <var>yuri</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">53.159404</span>
                                 <span class="longitude">158.399646</span>
@@ -302,13 +302,13 @@
                                 <span class="bbox-east">158.334758</span>
                                 <span class="bbox-north">53.169798</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an emergency</var>,
                                 let’s meet at <var class="place-name">Yelizovsky Market, (Кафе &quot;Виктор&quot;) Cafe Victor</var>.
-                                <a class="link" href="/maps.php/6ht48">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/6ht48">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -317,8 +317,8 @@
                                 Safety Map
                                                                     by <var>mike zimmerman</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">39.931854</span>
                                 <span class="longitude">-75.161355</span>
@@ -327,25 +327,25 @@
                                 <span class="bbox-east">-75.16674</span>
                                 <span class="bbox-north">39.934486</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an emergency</var>,
                                 let’s meet at <var class="place-name">the acme parking lot</var>.
-                                <a class="link" href="/maps.php/p576f">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/p576f">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
                                     </ul>
-                
+
                                     <p class="pagination">
-                                                                                    <span class="newer">← <a href="/maps.php?count=12&amp;offset=60">Newer Maps</a></span>
+                                                                                    <span class="newer">← <a href="./maps.php?count=12&amp;offset=60">Newer Maps</a></span>
                                                                                         /
-                                                                                        <span class="older"><a href="/maps.php?count=12&amp;offset=84">Older Maps</a> →</span>
+                                                                                        <span class="older"><a href="./maps.php?count=12&amp;offset=84">Older Maps</a> →</span>
                                                                         </p>
-                
-            
+
+
                     </div>
 
         <div id="footer">
@@ -356,7 +356,7 @@
 
 
 <script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('0b0dd22f79d787f91f1a1bcaff135509'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
-<script type='text/javascript'> mpmetrics.track("view maps page", {}); </script> 
+<script type='text/javascript'> mpmetrics.track("view maps page", {}); </script>
 
     </body>
 </html>

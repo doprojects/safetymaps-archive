@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <title>Safety Maps: About</title>
-        <link rel="stylesheet" type="text/css" href="/fonts/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="/style.css" />
-<link rel="icon" type="image/png" href="/images/favicon.png">        <style type="text/css" title="text/css">
+        <link rel="stylesheet" type="text/css" href="./fonts/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<link rel="icon" type="image/png" href="./images/favicon.png">        <style type="text/css" title="text/css">
         <!--
             #main p, #main ul { width: 40em; }
         -->
@@ -14,13 +14,13 @@
     <body>
 
         <div id="header">
-    <a href="/"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
+    <a href="./"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
     <div id="nav">
         <ul>
-            <li><a class="" href="/">Home</a></li>
-            <li><a class="" href="/about.php">About</a></li>
-            <li><a class="" href="/make-a-safety-map.php">Make a Safety Map</a></li>
-                        <li><a class="current" href="/resources.php">Resources</a></li>
+            <li><a class="" href="./">Home</a></li>
+            <li><a class="" href="./about.php">About</a></li>
+            <li><a class="" href="./make-a-safety-map.php">Make a Safety Map</a></li>
+                        <li><a class="current" href="./resources.php">Resources</a></li>
         </ul>
     </div>
 </div>
@@ -74,7 +74,7 @@
               </ul>
 
               <h2>By city</h2>
-            
+
               <h3>San Francisco</h3>
               <ul>
                 <li><a href="http://www.sf-fire.org/index.aspx?page=859">San Francisco Fire Department Neighborhood Emergency Response Team</a> (NERT), a community based training program dedicated to a neighbor-helping-neighbor approach.</li>
@@ -90,7 +90,7 @@
                 <li>Community Emergency Response Team (CERT) <a href="http://www.nyc.gov/html/oem/html/get_prepared/cert.shtml">program information</a>.</li>
                 <li><a href="http://www.brooklynsouthcert.com/">Brooklyn South Community Emergency Response Team</a>.</li>
             </ul>
-            
+
         </div>
 
         <div id="footer">
@@ -101,7 +101,7 @@
 
 
 <script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('0b0dd22f79d787f91f1a1bcaff135509'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
-<script type='text/javascript'> mpmetrics.track("view resources page", {}); </script> 
+<script type='text/javascript'> mpmetrics.track("view resources page", {}); </script>
 
     </body>
 </html>

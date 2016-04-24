@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <title>Safety Map</title>
-        <link rel="stylesheet" type="text/css" href="/fonts/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="/style.css" />
-<link rel="icon" type="image/png" href="/images/favicon.png">        <script type="text/javascript" src="/jquery.min.js"></script>
-                    <link rel="stylesheet" type="text/css" href="/maps.css" />
+        <link rel="stylesheet" type="text/css" href="./fonts/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<link rel="icon" type="image/png" href="./images/favicon.png">        <script type="text/javascript" src="/jquery.min.js"></script>
+                    <link rel="stylesheet" type="text/css" href="./maps.css" />
             <script type="text/javascript" src="/maps.js"></script>
                 <script type="text/javascript" src="/modestmaps.js"></script>
         <script type="text/javascript" src="/cloudmade.js"></script>
@@ -16,32 +16,32 @@
     <body>
 
         <div id="header">
-    <a href="/"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
+    <a href="./"><img src="/images/header.png" width="860" height="137" alt="Safety Maps: Make and share maps of safe places to meet in the event of an emergency"></a>
     <div id="nav">
         <ul>
-            <li><a class="" href="/">Home</a></li>
-            <li><a class="" href="/about.php">About</a></li>
-            <li><a class="" href="/make-a-safety-map.php">Make a Safety Map</a></li>
-                        <li><a class="" href="/resources.php">Resources</a></li>
+            <li><a class="" href="./">Home</a></li>
+            <li><a class="" href="./about.php">About</a></li>
+            <li><a class="" href="./make-a-safety-map.php">Make a Safety Map</a></li>
+                        <li><a class="" href="./resources.php">Resources</a></li>
         </ul>
     </div>
 </div>
         <div id="main">
-                                        
-                                
+
+
                                     <p class="pagination">
-                                                                                    <span class="newer">← <a href="/maps.php?count=12&amp;offset=108">Newer Maps</a></span>
+                                                                                    <span class="newer">← <a href="./maps.php?count=12&amp;offset=108">Newer Maps</a></span>
                                                                                                                                 </p>
-                
-            
+
+
                 <ul id="maps">
                                             <li class="map-info ">
                             <h3>
                                 Safety Map
                                                                     by <var>Adam</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">53.479608</span>
                                 <span class="longitude">-2.248823</span>
@@ -50,13 +50,13 @@
                                 <span class="bbox-east">-2.250164</span>
                                 <span class="bbox-north">53.480119</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>topology</var>,
                                 let’s meet at <var class="place-name">Peveril of the Peak</var>.
-                                <a class="link" href="/maps.php/6m2">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/6m2">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -65,8 +65,8 @@
                                 Safety Map
                                                                     by <var>Mike</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">37.765682</span>
                                 <span class="longitude">-122.407193</span>
@@ -75,13 +75,13 @@
                                 <span class="bbox-east">-122.417922</span>
                                 <span class="bbox-north">37.77111</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>an earthquake</var>,
                                 let’s meet at <var class="place-name">Il Pirata</var>.
-                                <a class="link" href="/maps.php/wph">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/wph">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
@@ -90,8 +90,8 @@
                                 Safety Map
                                                                     by <var>Mike</var>
                                                             </h3>
-                            
-                            
+
+
                             <span class="geo">
                                 <span class="latitude">37.795352</span>
                                 <span class="longitude">-122.393681</span>
@@ -100,23 +100,23 @@
                                 <span class="bbox-east">-122.405595</span>
                                 <span class="bbox-north">37.798066</span>
                             </span>
-                            
+
                             <div class="map-area"></div>
-                            
+
                             <p>
                                 In case of <var>a public transportation failure</var>,
                                 let’s meet at <var class="place-name">the Ferry Building</var>.
-                                <a class="link" href="/maps.php/ddq">I’ve marked the spot on this map</a>.
+                                <a class="link" href="./maps.php/ddq">I’ve marked the spot on this map</a>.
                             </p>
 
                                                     </li>
                                     </ul>
-                
+
                                     <p class="pagination">
-                                                                                    <span class="newer">← <a href="/maps.php?count=12&amp;offset=108">Newer Maps</a></span>
+                                                                                    <span class="newer">← <a href="./maps.php?count=12&amp;offset=108">Newer Maps</a></span>
                                                                                                                                 </p>
-                
-            
+
+
                     </div>
 
         <div id="footer">
@@ -127,7 +127,7 @@
 
 
 <script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('0b0dd22f79d787f91f1a1bcaff135509'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
-<script type='text/javascript'> mpmetrics.track("view maps page", {}); </script> 
+<script type='text/javascript'> mpmetrics.track("view maps page", {}); </script>
 
     </body>
 </html>
