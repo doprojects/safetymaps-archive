@@ -144,9 +144,5 @@
     <p>Map images are &copy;CloudMade and <a href="http://openstreetmap.org">OpenStreetMap.org</a> contributors, used under the <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Attribution-Share Alike license</a>.</p>
 </div>
 
-
-<script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('0b0dd22f79d787f91f1a1bcaff135509'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
-<script type='text/javascript'> mpmetrics.track("view make-a-map form", {}); </script>
-
     </body>
 </html>
